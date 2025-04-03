@@ -20,11 +20,11 @@ This tool is ideal for teams looking to automate the review process of pull requ
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/mcp_mvp.git
+    git clone https://github.com/karan-manhas/model_context_protocol_mvp.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd mcp_mvp
+    cd model_context_protocol_mvp
     ```
 3. Install dependencies:
     ```bash
@@ -34,11 +34,12 @@ This tool is ideal for teams looking to automate the review process of pull requ
 ## Usage
 
 1. Ensure you have the necessary API keys for GitHub and the MCP Client (OpenAI or Claude).
-2. Run the MCP Agent:
+2. Set the config in `github_integration.py`  
+3. Run the MCP Agent:
     ```bash
-    python mcp_agent.py
+    python pr_analyser_openai.py
     ```
-3. The tool will fetch open pull requests, analyze them, and output the results to a `.txt` file.
+4. The tool will fetch open pull requests, analyze them, and output the results to a `.txt` file.
 
 ## Prequisites
 
