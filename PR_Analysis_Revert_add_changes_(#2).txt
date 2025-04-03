@@ -1,0 +1,15 @@
+PR Analysis: Revert "add changes" (#2)
+
+PR Title: Revert "add changes"
+        Author: Karan-Manhas
+        Description: Reverts Karan-Manhas/Dino-Game#1
+
+        Total Files Changed: 7
+        Changed Files:
+        - README.md (modified)
+- dino.gif (removed)
+- dino.png (added)
+- index.html (modified)
+- rock.png (modified)
+- script.js (modified)
+- style.css (modified)
