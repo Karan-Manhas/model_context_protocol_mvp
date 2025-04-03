@@ -1,8 +1,12 @@
-# Model Context Protocol Agent (MCP Agent)
+# Model Context Protocol Agent (More Protocol Agent)
 
 ## Overview
 
-The **Model Context Protocol Agent (MCP Agent)** is a tool designed to streamline the process of analyzing open pull requests on GitHub. By leveraging AI models like OpenAI or Claude, the MCP Agent impersonates a software engineer to provide detailed insights, identify potential issues, assess impacts, and summarize pull requests.
+The **Protocol Agent** is a tool designed to streamline the process of analyzing open pull requests on GitHub. By leveraging AI models like OpenAI or Claude, the MCP Agent impersonates a software engineer to provide detailed insights, identify potential issues, assess impacts, and summarize pull requests.
+
+The use of `from mcp.server.fastmcp import FastMCP` would consider this more of a Model Context Agent.
+
+
 
 ## Features
 
