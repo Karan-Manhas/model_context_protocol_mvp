@@ -7,7 +7,6 @@ import re
 from dotenv import load_dotenv
 from github_integration import fetch_pr_changes
 
-# Load environment variables
 load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
@@ -118,7 +117,7 @@ class OpenAIPRAnalyzer:
             return error_msg
 
     def run_analysis(self, repo_owner, repo_name, pr_number):
-        print(f"🚀 Starting analysis for PR #{pr_number}...")
+        print(f" Starting analysis for PR #{pr_number}...")
         pr_data = self.fetch_pr(repo_owner, repo_name, pr_number)
 
         if not pr_data:
@@ -141,10 +140,10 @@ if __name__ == "__main__":
         repo_name = sys.argv[2]
         pr_number = int(sys.argv[3])
     else:
-        repo_owner = 'Karan-Manhas'
-        repo_name = 'Dino-Game'
+        repo_owner = 'repo_owner'
+        repo_name = 'repo_name'
         pr_number = 2
 
     analysis = analyzer.run_analysis(repo_owner, repo_name, pr_number)
-    print("\n📄 Final Analysis Result:\n")
+    print("\n Final Analysis Result:\n")
     print(analysis)
